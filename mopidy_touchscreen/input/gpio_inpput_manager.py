@@ -59,7 +59,7 @@ def left(channel):
     else:
         type = pygame.KEYDOWN
         dict['unicode'] = None
-    dict['key'] = pygame.K_RIGHT
+    dict['key'] = pygame.K_LEFT
     event = pygame.event.Event(type, dict)
     pygame.event.post(event)
 
